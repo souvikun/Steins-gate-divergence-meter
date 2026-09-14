@@ -4,6 +4,8 @@ A terminal-based study/task tracker inspired by Steins;Gate. It runs directly in
 
 Perfect for Linux and Termux (Android).
 
+![Alt text](IMG_20260915_004145.jpg)
+
 ## Quick Install (Auto-Setup)
 
 Open your terminal and run these commands. It will automatically download the code, compile it, and set it up to run instantly every time you open your terminal.
