@@ -10,12 +10,6 @@ Perfect for Linux and Termux (Android).
 
 Open your terminal and run these commands. It will automatically download the code, compile it, and set it up to run instantly every time you open your terminal.
 
-```bash
-git clone [https://github.com/souvikun/Steins-gate-divergence-meter.git](https://github.com/souvikun/Steins-gate-divergence-meter.git)
-cd Steins-gate-divergence-meter
-chmod +x install.sh
-./install.sh
-
 ## Useful Commands
 
 | Command | Description |
@@ -37,3 +31,9 @@ meter -u             # update a metric interactively
 meter add 3 1.5      # add 1.5 to metric #3
 meter -l             # view shift history
 \`\`\`
+
+```bash
+git clone [https://github.com/souvikun/Steins-gate-divergence-meter.git](https://github.com/souvikun/Steins-gate-divergence-meter.git)
+cd Steins-gate-divergence-meter
+chmod +x install.sh
+./install.sh
