@@ -15,3 +15,25 @@ git clone [https://github.com/souvikun/Steins-gate-divergence-meter.git](https:/
 cd Steins-gate-divergence-meter
 chmod +x install.sh
 ./install.sh
+
+## Useful Commands
+
+| Command | Description |
+|---|---|
+| `meter` | Boot the animated dashboard (full intro + nixie tube animation) |
+| `meter -f`, `meter --fast` | Show the dashboard instantly, no animation |
+| `meter -u`, `meter --update` | Open interactive mode to update metric values |
+| `meter -e`, `meter edit` | Open the metrics config file in your `$EDITOR` |
+| `meter add <idx> <val>` | Add `<val>` to metric `<idx>` (1-based). Example: `meter add 1 2.5` |
+| `meter + <idx> <val>` | Shorthand for `add` |
+| `meter -l`, `meter log` | View the worldline shift history log |
+| `meter -h`, `meter --help` | Show the help message |
+
+### Examples
+\`\`\`bash
+meter                # animated dashboard
+meter -f             # instant dashboard
+meter -u             # update a metric interactively
+meter add 3 1.5      # add 1.5 to metric #3
+meter -l             # view shift history
+\`\`\`
