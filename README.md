@@ -20,15 +20,7 @@ Perfect for Linux and Termux (Android).
 | `meter -l`, `meter log` | View the worldline shift history log |
 | `meter -h`, `meter --help` | Show the help message |
 
-### Examples
 
-''`bash
-meter                # animated dashboard
-meter -f             # instant dashboard
-meter -u             # update a metric interactively
-meter add 3 1.5      # add 1.5 to metric #3
-meter -l             # view shift history
-\'\`\`
 
 ## Quick Install (Auto-Setup)
 
